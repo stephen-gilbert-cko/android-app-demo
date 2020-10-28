@@ -20,14 +20,21 @@
     </style>
 
     <style name="YourCustomDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- STATUS BAR COLOR. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <!-- TOOLBAR COLOR. -->
-        <item name="colorPrimary">#000</item>
+        <item name="colorPrimary">#303A45</item>
         <!--FIELDS HIGHLIGHT COLOR-->
-        <item name="colorAccent">#000</item>
+        <item name="colorAccent">#4382AC</item>
         <!--PAY/DONE BUTTON COLOR-->
-        <item name="colorButtonNormal">#000</item>
-        <!--HELPER LABELS AND UNSELECTED FIELD COLOR-->
-        <item name="colorControlNormal">#000</item>
+        <item name="colorButtonNormal">#0285F9</item>
+        <!--HELPER LABELS AND FIELD COLOR-->
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <!--EDIT TEXT COLOR-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!--HINTS COLOR-->
+        <item name="android:textColorHint">@color/textColorHint</item>
     </style>
 
 </resources>

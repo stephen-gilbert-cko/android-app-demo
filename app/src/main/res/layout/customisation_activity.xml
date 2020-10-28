@@ -10,8 +10,7 @@
         android:id="@+id/checkout_card_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
-        android:theme="@style/YourCustomTheme"
-        />
+        android:background="#06070B"
+        android:theme="@style/YourCustomDarkTheme" />
 
 </LinearLayout>
